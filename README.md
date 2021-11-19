@@ -1,0 +1,2 @@
+# jitsi-finicky-opener
+
