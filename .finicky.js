@@ -1,9 +1,9 @@
     module.exports = 
     {
-      defaultBrowser: "Firefox",
+      defaultBrowser: "your-favorite-browser-CHANGEME",
       handlers: [
 		{
-                  match: ({ url }) => url.host.includes("jitsi.your-selfhosted-server.com") || 
+                  match: ({ url }) => url.host.includes("jitsi.your-selfhosted-server.CHANGEME") || 
                                                                 url.host.includes("meet.jit.si") ,
 			      url({ url }) {
 					  return {
