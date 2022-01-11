@@ -2,7 +2,7 @@ module.exports = {
   defaultBrowser: "Firefox",
 	handlers: [
 		{
-            match: ({ url }) => url.host.includes("jitsi.example.com") || url.host.includes("meet.jit.si") ,
+            match: ({ url }) => url.host.includes("jitsi.your-selfhosted-server.com") || url.host.includes("meet.jit.si") ,
 			      url({ url }) {
 					  return {
 					  		          ...url,
